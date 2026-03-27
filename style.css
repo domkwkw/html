@@ -1,0 +1,48 @@
+/**
+ * style.css
+ */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: #c9b171;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main content area */
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Article styles */
+article {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    margin: 0 0 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #c9b171;
+    color: white;
+}
